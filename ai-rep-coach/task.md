@@ -1,0 +1,22 @@
+- [x] Create project structure
+- [x] Implement core modules (pose_engine, exercises, utils)
+- [x] Implement Gemini Coach integration
+- [x] Create Streamlit UI
+- [x] Configure Environment Variables
+    - [x] Create .env file with API Key
+    - [x] Update requirements.txt
+    - [x] Update app.py to load from .env
+- [x] Update Gemini API Integration
+    - [x] Update requirements.txt to use google-genai
+    - [x] Update gemini_coach.py to use new Client
+- [ ] Enhance Exercises
+    - [ ] Update `Exercise` base class for multiple angles
+    - [ ] Update existing exercises with more angles
+    - [ ] Implement `ShoulderRotation`
+    - [ ] Implement `NeckRotation`
+- [ ] Improve Visualization
+    - [ ] Update `utils.py` to draw multiple angles
+    - [ ] Update `app.py` to handle dynamic angle display
+- [ ] Improve AI Agent
+    - [ ] Add context/history to `GeminiCoach`
+    - [ ] Implement dynamic prompting strategies
